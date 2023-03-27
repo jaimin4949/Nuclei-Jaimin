@@ -1,0 +1,15 @@
+id: branch-io-sdk-live-key
+
+info:
+  name: Branch.io SDK live_key 
+  author: Jaimin Gondaliya
+  severity: medium
+
+file:
+  - extensions:
+      - all
+
+    extractors:
+      - type: regex
+        regex:
+          - "key_live_[a-zA-Z0-9]{32}"
